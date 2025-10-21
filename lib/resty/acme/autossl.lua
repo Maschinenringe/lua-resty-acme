@@ -644,7 +644,7 @@ function AUTOSSL.ssl_certificate()
     get_cert_inline(i, typ)
   end
 
-  if domain_key_types_count ~= chains_set then
+  if domain_key_types_count ~= #chains_set then
     local update_cert_loop = function()
       for i, typ in ipairs(domain_key_types) do
         if not chains_set[i] then
