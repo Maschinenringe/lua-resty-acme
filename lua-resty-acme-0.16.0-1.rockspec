@@ -1,7 +1,7 @@
 package = "lua-resty-acme"
 version = "0.16.0-1"
 source = {
-   url = "git+https://github.com/fffonion/lua-resty-acme.git",
+   url = "git+https://github.com/Maschinenringe/lua-resty-acme.git",
    tag = "0.16.0"
 }
 description = {
